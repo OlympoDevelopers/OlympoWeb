@@ -1,0 +1,39 @@
+{
+  "name": "olympoweb",
+  "version": "1.0.0",
+  "description": "Proyecto Correspondiente a EmprendeNet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlympoDevelopers/OlympoWeb.git"
+  },
+  "keywords": [
+    "Olympo",
+    "Project"
+  ],
+  "author": "Anghel Gonzalez, Ivan Curiel, Rogriguez Marco, Baltazar Oscar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlympoDevelopers/OlympoWeb/issues"
+  },
+  "homepage": "https://github.com/OlympoDevelopers/OlympoWeb#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.12",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.4",
+    "sass": "^1.45.0"
+  }
+}
