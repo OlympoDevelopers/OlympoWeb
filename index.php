@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    <h1>Hola mundo desde Olympo</h1>
-    <?php echo "Hola mundo desde Olympo procesando desde PHP"; ?>
+    <h1>Hola Mundo desde Ivan</h1>
+    <?php echo "Hola mundo desde Ivan x2"; ?>
 </body>
 </html>
