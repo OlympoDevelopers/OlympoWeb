@@ -9,3 +9,7 @@
     <link rel="stylesheet" href="/build/css/app.css">
 </head>
 <body>
+    <header> 
+        <h1>Header</h1>
+        <img src="/build/img/es.webp" alt="¿Estas Seguro?">
+    </header>

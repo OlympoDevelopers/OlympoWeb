@@ -1,4 +1,3 @@
 <?php require 'includes/templates/header.php';?>
 
-</body>
-</html>
+<?php require 'includes/templates/footer.php';?>
