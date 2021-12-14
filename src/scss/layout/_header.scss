@@ -1,5 +1,25 @@
-@use "../base/variables" as v;
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
 
-body{
-    
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  @include m.telefono {
+    background-image: url(/build/img/bgtPhone.webp);
+
+  }
+
+  @include m.tablet {
+    background-image: url(/build/img/bgtTablet.webp);
+
+  }
+
+  @include m.desktop {
+    background-image: url(/build/img/desktop2.webp);
+  }
+
+  img{
+    visibility: hidden;
+  }
 }
