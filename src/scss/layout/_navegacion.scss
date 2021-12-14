@@ -7,10 +7,9 @@
   }
 
   img{
+    margin: 0 auto;
+    padding-bottom: 2rem;
     width: 20rem;
-    @include m.telefono{
-      margin: 2rem auto;
-    }
   }
 
   padding-top: 2rem;
@@ -24,12 +23,12 @@
 
 .navegacion{
   span{
-    margin: 2rem;
-    visibility: visible;
-    user-select: none;
-
-    @include m.telefono{
-      display: none;
+    display: none;
+    @include m.tablet{
+      margin: 2rem;
+      visibility: visible;
+      user-select: none;
+      display: inline;
     }
   }
   padding-bottom: 2rem;
@@ -57,13 +56,6 @@
     }
     &:hover{
       color: v.$hover;
-    }
-    @include m.telefono{
-      margin-bottom: 1.5rem;
-
-      &:last-of-type{
-        margin-bottom: 0;
-      }
     }
   }
 }
