@@ -8,7 +8,7 @@
     <title>Olympo Web</title>
     <link rel="stylesheet" href="/build/css/app.css">
 </head>
-<body>
+<body >
     <header> 
         <h1>Header</h1>
         <img src="/build/img/es.webp" alt="¿Estas Seguro?">
