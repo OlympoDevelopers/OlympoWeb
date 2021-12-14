@@ -9,20 +9,20 @@ html {
   box-sizing: inherit;
 }
 body {
+  background-color: v.$background;
   font-family: v.$fuente-principal;
   font-size: 1.6rem;
   line-height: 1.8;
 
-  background-image: url(../img/Tel.png);
+  background-image: url(../img/bgTel.png);
   @include m.telefono{
-    background-image: url(../img/Tablet.png);
+    background-image: url(../img/bgTablet.png);
   }
   @include m.tablet{
-    background-image: url(../img/Desktop.png);
+    background-image: url(../img/bgDesktop.png);
   }
-
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
 }
 p {
   color: v.$negro;

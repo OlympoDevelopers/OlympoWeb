@@ -9,7 +9,24 @@
     <link rel="stylesheet" href="/build/css/app.css">
 </head>
 <body >
-    <header> 
-        <h1>Header</h1>
-        <img src="/build/img/es.webp" alt="¿Estas Seguro?">
+    <header class="header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="/build/img/Logo.svg" alt="Logo Olympo">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="#">Servicios</a>
+                    <span class="separador">|</span>
+                    <a href="#">Contacto</a>
+                    <span class="separador">|</span>
+                    <a href="#">Acerca de</a>
+                    <span class="separador">|</span>
+                    <a href="#">Conócenos</a>
+                </nav>
+
+            </div>
+        </div>
+
     </header>
