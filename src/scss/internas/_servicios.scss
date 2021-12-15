@@ -3,12 +3,17 @@
 
 .container {
   width: 100%;
-  max-width: 120rem;
-  height: 43rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
+  max-width: 150rem;
+  height: auto;
+  margin: 0 auto;
+  justify-items: center;
+  @include m.grid(1,3rem);
+  @include m.tablet{
+    @include m.grid(2,3rem)
+  }
+  @include m.desktop{
+    @include m.grid(4,3rem);
+  }
 
 
   .card {

@@ -1,6 +1,9 @@
 <footer class="contenido-footer">
 
-    <img src="/build/img/FavIcon.svg" alt="FavIcon Footer">
+    <a href="/">
+        <img src="/build/img/FavIcon.svg" alt="FavIcon Footer">
+    </a>
+
 
     <h2>© 2021 Olympo Projects Todos los derechos reservados </h2>
 

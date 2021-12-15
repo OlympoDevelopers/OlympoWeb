@@ -1,6 +1,6 @@
 <?php require 'includes/templates/header.php'; ?>
 
-<div class="container">
+<div class="container contenedor">
     <div class="card">
         <img src="/build/img/webDesign.webp" alt="Diseño web">
         <h4>Desarrollo web</h4>

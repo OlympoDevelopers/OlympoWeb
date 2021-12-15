@@ -1,8 +1,14 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
-
-
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer{
+  margin-top: auto;
+}
 .contenido-footer {
   background-color: v.$background;
   img {
