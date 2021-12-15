@@ -9,6 +9,9 @@ h2{
   text-transform: uppercase;
 }
 .texto-acercade{
+  img{
+    border-radius: 2rem;
+  }
   display: flex;
   flex-direction: column;
   align-content: center;
