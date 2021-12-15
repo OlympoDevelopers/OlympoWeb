@@ -23,7 +23,7 @@
                     <span class="separador">|</span>
                     <a href="#">Contacto</a>
                     <span class="separador">|</span>
-                    <a href="#">Acerca de</a>
+                    <a href="acercaDe.php">Acerca de</a>
                     <span class="separador">|</span>
                     <a href="#">Conócenos</a>
                 </nav>

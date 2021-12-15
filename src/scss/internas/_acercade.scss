@@ -1,0 +1,23 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+h2,p{
+  color: v.$blanco;
+
+}
+h2{
+  text-transform: uppercase;
+}
+.texto-acercade{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: v.$fondoAcerca;
+  padding: 2rem;
+  border-radius: 3rem;
+  text-align: justify;
+  @include m.desktop{
+    @include m.grid(2,2rem);
+  }
+  align-items: center;
+}
