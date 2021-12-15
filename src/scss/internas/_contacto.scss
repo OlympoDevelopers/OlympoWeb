@@ -1,0 +1,48 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+i{
+  font-size: 10rem;
+  @include m.tablet{
+    font-size: 20rem;
+  }
+  color: v.$blanco;
+}
+h1{
+  color: v.$blanco;
+}
+
+.contacto{
+  i{
+    margin-left:10rem;
+    margin-right: 2rem;
+  }
+  .email{
+    font-size: 2.7rem;
+  }
+  h3{
+    font-size: 2rem;
+    margin: 0;
+    @include m.tablet{
+      font-size: 3rem;
+    }
+    color: v.$blanco;
+    &:hover{
+      color: v.$hover;
+      cursor: pointer;
+    }
+  }
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  i{
+    margin: 0 auto;
+  }
+  @include m.tablet{
+    align-items: center;
+    flex-direction: row;
+    i{
+      margin: 0 10rem 2rem;
+    }
+  }
+}

@@ -30,6 +30,18 @@
   }
 }
 
+@mixin maxTab{
+  @media (max-width: v.$tablet) {
+    @content;
+  }
+}
+
+@mixin maxDesktop{
+  @media (max-width: v.$desktop) {
+    @content;
+  }
+}
+
 @mixin grid($columnas, $gap){
   display: grid;
   grid-template-columns: repeat($columnas, 1fr);
