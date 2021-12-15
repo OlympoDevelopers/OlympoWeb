@@ -29,3 +29,21 @@
     max-width: 30rem;
   }
 }
+
+.servicios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include m.tablet{
+    flex-direction: row;
+    text-align: center;
+  }
+  .servicio{
+    img{
+      width: 15rem;
+    }
+    h3{
+      color: v.$blanco;
+    }
+  }
+}
