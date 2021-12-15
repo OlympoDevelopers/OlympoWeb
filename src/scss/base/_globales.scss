@@ -15,9 +15,9 @@ body {
   line-height: 1.8;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../img/bgTel.png);
+  background-image: url(../img/bgTelXr.png);
   @include m.telefono{
-    background-image: url(../img/bgTablet.png);
+    background-image: url(../img/bgTabletXr.png);
   }
   @include m.tablet{
     background-image: url(../img/bgDesktop.png);
