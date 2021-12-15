@@ -14,7 +14,8 @@
   .card {
     background-color: v.$fondoAcerca;
     width: 33rem;
-    height: 64rem;
+    height: auto;
+    padding-bottom: 3rem;
     border-radius: .8rem;
     box-shadow: 0 .2rem .2rem rgba(0,0,0,0.2);
     overflow: hidden;
