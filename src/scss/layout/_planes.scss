@@ -1,0 +1,128 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.contenido-desarrolloWeb{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan{
+  h1,p,a,span{
+  color: v.$negro;
+}
+
+  margin-bottom: 5rem;
+  &:first-of-type{
+    margin-top: 20rem;
+  }
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: v.$blanco;
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+
+  .plan-img{
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem;
+    transform: translate(0,-8rem);
+    @include m.tablet{
+      transform: translateX(-8rem);
+    }
+    position: relative;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: .8rem;
+    }
+
+    &::before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      //background: linear-gradient(to right, rgba(79,172,254,.8), rgba(0,242,254,.8));
+      box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,0.05);
+      border-radius: .8rem;
+    }
+  }
+
+  .plan-fecha{
+    span{
+      display: block;
+      color: rgba(0,0,0,.5);
+      font-size: 1.6rem;
+      font-weight: v.$bold;
+      margin: .5rem 0;
+    }
+  }
+
+  .plan-titulo{
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: v.$hover;
+    font-weight: v.$bold;
+  }
+
+  .plan-texto{
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.7);
+  }
+
+  .plan-post_cta{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: v.$blanco;
+    background-color: v.$hover;
+    border-radius: .8rem;
+
+    &:hover{
+      background-color: darken(v.$hover, 10%);
+    }
+  }
+}
+
+@media screen and (max-width: 1068px){
+  .plan{
+    max-width: 80rem;
+  }
+
+  .plan-img{
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+
+}
+
+@media screen and (max-width: 868px){
+  .plan{
+    max-width: 70rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .plan{
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+
+  .plan-img{
+    min-width: 100%;
+    max-width: 100%;
+    //transform: translate(0);
+  }
+}

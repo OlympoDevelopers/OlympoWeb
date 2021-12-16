@@ -1,11 +1,6 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
-body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 footer{
   margin-top: auto;
 }
@@ -30,9 +25,18 @@ footer{
 
   i {
     font-size: 2rem;
+    &:first-of-type{
+      padding-top: 2rem;
+    }
   }
 
   .icons {
+    display: flex;
+    flex-direction: column;
+    @include m.tablet{
+      flex-direction: row;
+    }
+    align-items: center;
     i {
       margin-right: 2rem;
       &:hover{
