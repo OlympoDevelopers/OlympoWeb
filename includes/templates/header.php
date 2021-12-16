@@ -25,7 +25,7 @@
                     <span class="separador">|</span>
                     <a href="acercaDe.php">Acerca de</a>
                     <span class="separador">|</span>
-                    <a href="#">Conócenos</a>
+                    <a href="conocenos.php">Conócenos</a>
                 </nav>
 
             </div>

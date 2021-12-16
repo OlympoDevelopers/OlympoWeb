@@ -19,7 +19,7 @@
 
                 <div class="btn">
                     <!--            <div class="shop-now">Contratar</div>-->
-                    <a href="servicio-desarrolloWeb.php" class="shop-now">Cotizar</a>
+                    <a href="#" class="shop-now">Cotizar</a>
                     <div class="snowflake-grid to-left">
                         <div class="snowflake-item border-bottom border-right">
                             <div class="sub-items border-right border-bottom pull-down">
@@ -92,7 +92,7 @@
 
                 <div class="btn">
                     <!--            <div class="shop-now">Contratar</div>-->
-                    <a href="servicio-desarrolloWeb.php" class="shop-now">Cotizar</a>
+                    <a href="#" class="shop-now">Cotizar</a>
                     <div class="snowflake-grid to-left">
                         <div class="snowflake-item border-bottom border-right">
                             <div class="sub-items border-right border-bottom pull-down">
@@ -165,7 +165,7 @@
 
                 <div class="btn">
                     <!--            <div class="shop-now">Contratar</div>-->
-                    <a href="servicio-desarrolloWeb.php" class="shop-now">Cotizar</a>
+                    <a href="#" class="shop-now">Cotizar</a>
                     <div class="snowflake-grid to-left">
                         <div class="snowflake-item border-bottom border-right">
                             <div class="sub-items border-right border-bottom pull-down">
