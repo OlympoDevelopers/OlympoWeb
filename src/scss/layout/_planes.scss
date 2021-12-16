@@ -9,6 +9,15 @@
     color: v.$hover;
     font-weight: v.$bold;
   }
+  ul{
+    .contenido-li_paginaweb{
+      list-style: none;
+      text-align: center;
+      margin: .6rem 0;
+      font-weight: v.$bold;
+      @include m.bordeSI(1px);
+    }
+  }
 }
 
 .plan{
@@ -80,8 +89,7 @@
       margin: .5rem 0;
     }
     .precio{
-      border-top: 1px solid rgba(110, 110, 110, 0.1);
-      border-bottom: 1px solid rgba(110, 110, 110, 0.1);
+      @include m.bordeSI(1px);
       font-weight: v.$black;
       font-size: 2rem;
     }

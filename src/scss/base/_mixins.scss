@@ -53,3 +53,18 @@
   padding: 0;
   list-style: none;
 }
+
+/*===== Bordes =====*/
+@mixin bordeSI($grosor){
+  border-top: $grosor solid rgba(110, 110, 110, 0.1);
+  border-bottom: $grosor solid rgba(110, 110, 110, 0.1);
+}
+
+@mixin bordeS($grosor){
+  border-top: $grosor solid rgba(110, 110, 110, 0.1);
+}
+
+@mixin bordeI($grosor){
+  border-bottom: $grosor solid rgba(110, 110, 110, 0.1);
+}
+

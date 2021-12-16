@@ -4,10 +4,17 @@
     <div class="card">
         <img src="/build/img/webDesign.webp" alt="Diseño web">
         <h4>Desarrollo web</h4>
-        <p>Crea tú propia página web, diseñada a tus necesidades y a tus gustos. <br>
-        Nos adaptamos a tu presupuesto! <br>
-            O por el contrario checa nuestos planes inicales.
-        </p>
+        <ul>
+            <li>
+                Crea tú propia página web, diseñada a tus necesidades y a tus gustos.
+            </li>
+            <li>
+                Nos adaptamos a tu presupuesto!
+            </li>
+            <li>
+                O por el contrario checa nuestos planes inicales.
+            </li>
+        </ul>
 
         <div class="btn">
 <!--            <div class="shop-now">Contratar</div>-->
@@ -67,7 +74,7 @@
     <div class="card">
         <img src="/build/img/pexels-alex-fu-1767783.webp" alt="Diseño web">
         <h4>Edición de Video</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa cupiditate deleniti doloribus eius error eum fugiat, fugit incidunt, laborum necessitatibus officia quae quaerat quisquam quo, repellat saepe suscipit vel!</p>
+        <p>Permite que tus video clips tengan una mejor produccion con efectos de video permitiendo tener una mejor calidad audiovisual</p>
 
         <div class="btn">
             <!--            <div class="shop-now">Contratar</div>-->
@@ -187,7 +194,7 @@
     <div class="card">
         <img src="/build/img/monitor-g1e5f3580d_1920.webp" alt="Diseño web">
         <h4>Animación</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa cupiditate deleniti doloribus eius error eum fugiat, fugit incidunt, laborum necessitatibus officia quae quaerat quisquam quo, repellat saepe suscipit vel!</p>
+        <p>Dales vida a tus modelos 3D con unas grandiosas animaciones de movimiento a travez de Blender</p>
 
         <div class="btn">
             <!--            <div class="shop-now">Contratar</div>-->
@@ -247,7 +254,17 @@
     <div class="card">
         <img src="/build/img/pexels-markus-spiske-360591.avif" alt="Desarrollo de software">
         <h4>Desarrollo de Software</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa cupiditate deleniti doloribus eius error eum fugiat, fugit incidunt, laborum necessitatibus officia quae quaerat quisquam quo, repellat saepe suscipit vel!</p>
+        <ul>
+            <li>
+                Creamos tu propio software de aplicación.
+            </li>
+            <li>
+                Hecho completamente a tus necesidades.
+            </li>
+            <li>
+                Completamente mediante el uso de c#.
+            </li>
+        </ul>
 
         <div class="btn">
             <!--            <div class="shop-now">Contratar</div>-->

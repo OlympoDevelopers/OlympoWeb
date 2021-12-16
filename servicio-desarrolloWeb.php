@@ -12,11 +12,35 @@
                 <h1 class="plan-titulo">
                     Pagina Web
                 </h1>
-                <p class="plan-texto">
-                    Este es nuestro plan mas básico que puedes adquirir, se conforma por una landing page o una sola pagína.
-                    <br>
-                    En esta puedes incluir todos los recursos gratiutos que desees, o recursos de paga, pero a tu tarifa fianal se le sumaría los derechos de uso.
-                </p>
+                <ul class="plan-texto">
+                    <li class="contenido-li_paginaweb">
+                        Contenido
+                    </li>
+                    <li>
+                       Este es nuestro plan mas básico que puedes adquirir, se conforma por una landing page o una sola pagína.
+                    </li>
+                    <li>
+                        En esta puedes incluir todos los recursos gratiutos que desees, o recursos de paga, pero a tu tarifa fianal se le sumaría los derechos de uso.
+                    </li>
+                    <li class="contenido-li_paginaweb">
+                        Hosting
+                    </li>
+                    <li>
+                        Hosting gratuito por 1 año.
+                    </li>
+                    <li>
+                        Dominio gratuito por 1 año.
+                    </li>
+                    <li class="contenido-li_paginaweb">
+                        Soporte.
+                    </li>
+                    <li>
+                        Te ofrecemos un soporte base con una duración de 1 año.
+                    </li>
+                    <li>
+                        El soporte extra, tendrá un costo con una renovación por año.
+                    </li>
+                </ul>
                 <h2>Desde <span class="precio">$750.00 MXN</span></h2>
 <!--                <a href="#" class="plan-post_cta">¡Cotizar!</a>-->
 
@@ -89,9 +113,14 @@
                     Sitio web
                 </h1>
                 <p class="plan-texto">
-                    Nuestro segundo plan, se conforma por 2 o mas páginas, con el contenido que desees. <br>
-                    Los recursos gráficos serán gratuitos y si necesitas recursos con derecho de autor, se te añadirá ese costo extra a tu tarifa final.
-                    <br>
+                    <ul class="plan-texto">
+                    <li>
+                        Nuestro segundo plan, se conforma por 2 o mas páginas, con el contenido que desees.
+                    </li>
+                    <li>
+                        Los recursos gráficos serán gratuitos y si necesitas recursos con derecho de autor, se te añadirá ese costo extra a tu tarifa final.
+                    </li>
+                </ul>
                 </p>
                 <h2>Desde <span class="precio">$2,500.00 MXN</span></h2>
 
@@ -166,10 +195,15 @@
                 <h1 class="plan-titulo">
                     Aplicación web
                 </h1>
-                <p class="plan-texto">
-                    Esta es la opción mas completa que manejamos, en esta se utilizan tecnologías de desarrolo mas avanzadas para mejora de tú proyecto.
-                    <br>
-                La aplicación web se caracteriza por tener un negocio implícito, por lo que puedes incluir una tienda online, procesamientos de pago, procesamientos de servicio. Así como una gestión y seguimiento remota conectada por una base de datos. Todo esto hecho de manera visual y sin que tú tengas que programas NADA!
+                <ul class="plan-texto">
+                    <li>
+                        Esta es la opción mas completa que manejamos, en esta se utilizan tecnologías de desarrolo mas avanzadas para mejora de tú proyecto.
+                    </li>
+                    <li>
+                        La aplicación web se caracteriza por tener un negocio implícito, por lo que puedes incluir una tienda online, procesamientos de pago, procesamientos de servicio. Así como una gestión y seguimiento remota conectada por una base de datos. Todo esto hecho de manera visual y sin que tú tengas que programas NADA!
+                    </li>
+                </ul>
+
                 <h2>Desde <span class="precio">$5,000.00 MXN</span></h2>
 
                 <!--                <a href="#" class="plan-post_cta">¡Cotizar!</a>-->
