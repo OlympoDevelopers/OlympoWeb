@@ -61,7 +61,7 @@
 
             <div class="tarjeta-equipo">
 
-                <img src="/build/img/webDesign.webp" alt="Perfil Anghel Fondo" class="card-imgbg">
+                <img src="/build/img/benjamin-voros-phIFdC6lA4E-unsplash.webp" alt="Perfil Anghel Fondo" class="card-imgbg">
 
                 <img src="/build/img/marco.webp" alt="Perfil Marco" class="card-pbg">
                 <h1>Marco Antonio</h1>

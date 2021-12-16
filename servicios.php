@@ -4,7 +4,10 @@
     <div class="card">
         <img src="/build/img/webDesign.webp" alt="Diseño web">
         <h4>Desarrollo web</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa cupiditate deleniti doloribus eius error eum fugiat, fugit incidunt, laborum necessitatibus officia quae quaerat quisquam quo, repellat saepe suscipit vel!</p>
+        <p>Crea tú propia página web, diseñada a tus necesidades y a tus gustos. <br>
+        Nos adaptamos a tu presupuesto! <br>
+            O por el contrario checa nuestos planes inicales.
+        </p>
 
         <div class="btn">
 <!--            <div class="shop-now">Contratar</div>-->
