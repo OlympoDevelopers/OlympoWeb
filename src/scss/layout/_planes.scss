@@ -12,12 +12,23 @@
   color: v.$negro;
 }
 
-  margin-bottom: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 12rem;
   &:first-of-type{
     margin-top: 20rem;
   }
   width: 100%;
-  max-width: 98rem;
+
+  max-width: 50rem;
+  @include m.tablet{
+    max-width: 80rem;
+  }
+  @include m.desktop{
+    max-width: 98rem;
+  }
+
+  //max-width: 98rem;
   padding: 5rem;
   background-color: v.$blanco;
   box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
@@ -97,9 +108,9 @@
 }
 
 @media screen and (max-width: 1068px){
-  .plan{
-    max-width: 80rem;
-  }
+  //.plan{
+  //  max-width: 80rem;
+  //}
 
   .plan-img{
     min-width: 30rem;
@@ -108,11 +119,11 @@
 
 }
 
-@media screen and (max-width: 868px){
-  .plan{
-    max-width: 70rem;
-  }
-}
+//@media screen and (max-width: 868px){
+//  .plan{
+//    max-width: 50rem;
+//  }
+//}
 
 @media screen and (max-width: 768px){
   .plan{
