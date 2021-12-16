@@ -15,6 +15,7 @@
                 <p class="plan-texto">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi architecto cumque delectus dicta doloremque dolores eaque facere, illum nemo non porro praesentium, quam repudiandae soluta temporibus unde veritatis.
                 </p>
+                <h2>Desde <span class="precio">$750.00 MXN</span></h2>
 <!--                <a href="#" class="plan-post_cta">¡Cotizar!</a>-->
 
                 <div class="btn">
@@ -88,6 +89,9 @@
                 <p class="plan-texto">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi architecto cumque delectus dicta doloremque dolores eaque facere, illum nemo non porro praesentium, quam repudiandae soluta temporibus unde veritatis.
                 </p>
+                <h2>Desde <span class="precio">$2,500.00 MXN</span></h2>
+
+
                 <!--                <a href="#" class="plan-post_cta">¡Cotizar!</a>-->
 
                 <div class="btn">
@@ -161,6 +165,8 @@
                 <p class="plan-texto">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab animi architecto cumque delectus dicta doloremque dolores eaque facere, illum nemo non porro praesentium, quam repudiandae soluta temporibus unde veritatis.
                 </p>
+                <h2>Desde <span class="precio">$5,000.00 MXN</span></h2>
+
                 <!--                <a href="#" class="plan-post_cta">¡Cotizar!</a>-->
 
                 <div class="btn">
