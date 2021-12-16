@@ -35,7 +35,7 @@
 
             <div class="tarjeta-equipo">
 
-                <img src="/build/img/webDesign.webp" alt="Perfil Ivan Fondo" class="card-imgbg">
+                <img src="/build/img/kaboompics_Summer%20Campfire.jpg" alt="Perfil Ivan Fondo" class="card-imgbg">
 
                 <img src="/build/img/ivan.avif" alt="Perfil Ivan" class="card-pbg">
                 <h1>Curiel Aportela</h1>
