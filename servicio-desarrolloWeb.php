@@ -13,16 +13,16 @@
                     Pagina Web
                 </h1>
                 <ul class="plan-texto">
-                    <li class="contenido-li_paginaweb">
+                    <li class="contenido-titulo_li">
                         Contenido
                     </li>
                     <li>
                        Este es nuestro plan mas básico que puedes adquirir, se conforma por una landing page o una sola pagína.
                     </li>
                     <li>
-                        En esta puedes incluir todos los recursos gratiutos que desees, o recursos de paga, pero a tu tarifa fianal se le sumaría los derechos de uso.
+                        En esta puedes incluir todos los recursos gratiutos que desees, o recursos de paga, pero a la tarifa fianal se le sumará los derechos de uso.
                     </li>
-                    <li class="contenido-li_paginaweb">
+                    <li class="contenido-titulo_li">
                         Hosting
                     </li>
                     <li>
@@ -31,8 +31,8 @@
                     <li>
                         Dominio gratuito por 1 año.
                     </li>
-                    <li class="contenido-li_paginaweb">
-                        Soporte.
+                    <li class="contenido-titulo_li">
+                        Soporte
                     </li>
                     <li>
                         Te ofrecemos un soporte base con una duración de 1 año.
@@ -114,11 +114,32 @@
                 </h1>
                 <p class="plan-texto">
                     <ul class="plan-texto">
+                    <li class="contenido-titulo_li">
+                        Contenido
+                    </li>
                     <li>
                         Nuestro segundo plan, se conforma por 2 o mas páginas, con el contenido que desees.
                     </li>
                     <li>
                         Los recursos gráficos serán gratuitos y si necesitas recursos con derecho de autor, se te añadirá ese costo extra a tu tarifa final.
+                    </li>
+                    <li class="contenido-titulo_li">
+                        Hosting
+                    </li>
+                    <li>
+                        Hosting gratuito por 1 año.
+                    </li>
+                    <li>
+                        Dominio gratuito por 1 año.
+                    </li>
+                    <li class="contenido-titulo_li">
+                        Soporte
+                    </li>
+                    <li>
+                        Te ofrecemos un soporte base con una duración de 1 año.
+                    </li>
+                    <li>
+                        El soporte extra, tendrá un costo con una renovación por año.
                     </li>
                 </ul>
                 </p>
@@ -196,11 +217,32 @@
                     Aplicación web
                 </h1>
                 <ul class="plan-texto">
+                    <li class="contenido-titulo_li">
+                        Contenido
+                    </li>
                     <li>
                         Esta es la opción mas completa que manejamos, en esta se utilizan tecnologías de desarrolo mas avanzadas para mejora de tú proyecto.
                     </li>
                     <li>
                         La aplicación web se caracteriza por tener un negocio implícito, por lo que puedes incluir una tienda online, procesamientos de pago, procesamientos de servicio. Así como una gestión y seguimiento remota conectada por una base de datos. Todo esto hecho de manera visual y sin que tú tengas que programas NADA!
+                    </li>
+                    <li class="contenido-titulo_li">
+                        Hosting
+                    </li>
+                    <li>
+                        Hosting gratuito por 1 año.
+                    </li>
+                    <li>
+                        Dominio gratuito por 1 año.
+                    </li>
+                    <li class="contenido-titulo_li">
+                        Soporte
+                    </li>
+                    <li>
+                        Te ofrecemos un soporte base con una duración de 1 año.
+                    </li>
+                    <li>
+                        El soporte extra, tendrá un costo con una renovación por año.
                     </li>
                 </ul>
 
