@@ -198,7 +198,7 @@
 
         <div class="btn">
             <!--            <div class="shop-now">Contratar</div>-->
-            <a href="#" class="shop-now">Contratar</a>
+            <a href="servicio-animacion.php" class="shop-now">Contratar</a>
             <div class="snowflake-grid to-left">
                 <div class="snowflake-item border-bottom border-right">
                     <div class="sub-items border-right border-bottom pull-down">
