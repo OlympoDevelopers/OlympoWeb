@@ -1,6 +1,6 @@
 <?php require 'includes/templates/header.php'; ?>
 
-<div class="grid">
+<div class="cuadricula">
     <div class="grid__item">
         <div class="card">
             <img src="build/img/Animaciones1.webp" alt="Animaciones 1" class="card__img">
