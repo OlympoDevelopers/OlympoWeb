@@ -10,15 +10,20 @@
   height: 35rem;
 }
 
-.cartas {
+.cartas1 {
   position: relative;
   display: block;
   height: 100%;
-  border-radius: calc(var(--curve) * 1px);
   overflow: hidden;
   text-decoration: none;
 }
-
+.cartas2 {
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
 .cardImage {
   width: 100%;
   height: auto;
@@ -26,7 +31,7 @@
 
 .cardOverlay {
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
   right: 0;
   z-index: 1;
