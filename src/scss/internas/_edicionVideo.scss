@@ -1,3 +1,104 @@
 @use '../base/variables' as v;
 @use '../base/mixins' as m;
 
+.cartasVideo {
+  display: grid;
+  @include m.grid(1,3rem);
+  gap: 2rem;
+  margin: auto;
+  width: 35rem;
+  height: 35rem;
+}
+
+.cartas {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+
+.cardOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: calc(var(--curve) * 1px);
+  background-color: var(--surface-color);
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .cardOverlay {
+  transform: translateY(0);
+}
+
+.cardHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.cardArc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  z-index: 1;
+}
+
+.cardArc path {
+  fill: var(--surface-color);
+}
+
+.card:hover .cardHeader {
+  transform: translateY(0);
+}
+
+.cardThumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.cardTitulo {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #6A515E;
+}
+
+.cardTagline {
+  display: block;
+  margin: 1em 0;
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.cardStatus {
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.cardDescription {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #D7BDCA;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
