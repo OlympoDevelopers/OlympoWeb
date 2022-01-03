@@ -6,8 +6,8 @@
   @include m.grid(1,3rem);
   gap: 2rem;
   margin: auto;
-  width: 35rem;
-  height: 35rem;
+  width: 28rem;
+  height: 55rem;
 }
 
 .cartas1 {
@@ -24,9 +24,14 @@
   overflow: hidden;
   text-decoration: none;
 }
-.cardImage {
+.cardImage1 {
   width: 100%;
   height: auto;
+}
+
+.cardImage2 {
+  width: 40rem;
+  height: 40rem;
 }
 
 .cardOverlay {
@@ -57,15 +62,6 @@
   transition: .2s ease-in-out;
 }
 
-.cardArc {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  bottom: 100%;
-  right: 0;
-  z-index: 1;
-}
-
 .cardArc path {
   fill: var(--surface-color);
 }
@@ -84,25 +80,25 @@
 .cardTitulo {
   font-size: 1em;
   margin: 0 0 .3em;
-  color: #6A515E;
+  color: #f0eff5;
 }
 
 .cardTagline {
   display: block;
   margin: 1em 0;
   font-size: .8em;
-  color: #D7BDCA;
+  color: #f0eff5;
 }
 
 .cardStatus {
   font-size: .8em;
-  color: #D7BDCA;
+  color: #f0eff5;
 }
 
 .cardDescription {
   padding: 0 2em 2em;
   margin: 0;
-  color: #D7BDCA;
+  color: #f0eff5;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;

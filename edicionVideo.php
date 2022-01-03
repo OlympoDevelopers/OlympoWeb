@@ -2,13 +2,11 @@
 <ul class="cartasVideo">
     <li>
         <a href="" class="cartas1">
-            <img src="build/img/EVideos1.webp" class="cardImage" alt="" />
+            <img src="build/img/EVideos1.webp" class="cardImage1" alt="Imagen EdicionVideo1" />
             <div class="cardOverlay">
                 <div class="cardHeader">
-                    <svg class="cardArc" xmlns="http://www.w3.org/2000/svg"></svg>
-                    <img class="cardThumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
                     <div class="cardHeaderText">
-                        <h3 class="cardTitulo">Jessica Parker</h3>
+                        <h3 class="cardTitulo">Edicion por tiempo</h3>
                         <span class="cardStatus">1 hour ago</span>
                     </div>
                 </div>
@@ -18,13 +16,11 @@
     </li>
     <li>
         <a href="" class="cartas2">
-            <img src="build/img/EVideos2.webp" class="cardImage" alt="" />
+            <img src="build/img/EVideos2.webp" class="cardImage2" alt="Imagen EdicionVideo2" />
             <div class="cardOverlay">
                 <div class="cardHeader">
-                    <svg class="cardArc" xmlns="http://www.w3.org/2000/svg"></svg>
-                    <img class="cardThumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
                     <div class="cardHeaderText">
-                        <h3 class="cardTitulo">kim Cattrall</h3>
+                        <h3 class="cardTitulo">Edicion por recursos gráficos</h3>
                         <span class="cardStatus">3 hours ago</span>
                     </div>
                 </div>
