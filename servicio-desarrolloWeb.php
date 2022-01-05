@@ -51,7 +51,7 @@
                         <a href="https://api.whatsapp.com/send/?phone=%2B525542382966&text&app_absent=0">
                             <i class="fab fa-whatsapp"></i>
                         </a>
-                        <a href="mailto:anghelr14@gmail.com">
+                        <a href="mailto:anghelr14@gmail.com?Subject=Cotización%20página%20web">
                             <i class="fas fa-envelope-open"></i>
                         </a>
                     </div>
