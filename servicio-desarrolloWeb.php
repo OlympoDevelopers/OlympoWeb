@@ -7,8 +7,7 @@
         </div>
         <div class="plan-info">
             <div class="plan-fecha">
-                <span>Diciembre</span>
-                <span>2021</span>
+
                 <h1 class="plan-titulo">
                     Pagina Web
                 </h1>
@@ -44,56 +43,17 @@
                 <h2>Desde <span class="precio">$750.00 MXN</span></h2>
 <!--                <a href="#" class="plan-post_cta">¡Cotizar!</a>-->
 
-                <div class="btn">
-                    <!--            <div class="shop-now">Contratar</div>-->
-                    <a href="#" class="shop-now">Cotizar</a>
-                    <div class="snowflake-grid to-left">
-                        <div class="snowflake-item border-bottom border-right">
-                            <div class="sub-items border-right border-bottom pull-down">
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
-                        <div class="snowflake-item border-bottom border-left">
-                            <div
-                                    class="sub-items border-right border-bottom r-90 pull-down-right"
-                            >
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
-                        <div class="snowflake-item border-top border-right">
-                            <div class="sub-items border-right border-bottom r-270 pull-right">
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
-                        <div class="snowflake-item border-top border-left">
-                            <div class="sub-items border-right border-bottom r-180 pull-left">
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
+                <div class="btn-cotizar">
+                    <div class="texto-cotizacion">
+                        <h3 class="plan-titulo">Cotiza tú página completa ahora</h3>
                     </div>
-                    <div class="snowflake-grid to-right">
-                        <div class="snowflake-item border-bottom border-right">
-                            <div class="sub-items border-right border-bottom pull-down">
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
-                        <div class="snowflake-item border-bottom border-left">
-                            <div
-                                    class="sub-items border-right border-bottom r-90 pull-down-right"
-                            >
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
-                        <div class="snowflake-item border-top border-right">
-                            <div class="sub-items border-right border-bottom r-270 pull-right">
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
-                        <div class="snowflake-item border-top border-left">
-                            <div class="sub-items border-right border-bottom r-180 pull-left">
-                                <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
-                            </div>
-                        </div>
+                    <div class="links-cotizaciones">
+                        <a href="#">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope-open"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -107,8 +67,7 @@
         </div>
         <div class="plan-info">
             <div class="plan-fecha">
-                <span>Diciembre</span>
-                <span>2021</span>
+
                 <h1 class="plan-titulo">
                     Sitio web
                 </h1>
@@ -211,8 +170,7 @@
         </div>
         <div class="plan-info">
             <div class="plan-fecha">
-                <span>Diciembre</span>
-                <span>2021</span>
+
                 <h1 class="plan-titulo">
                     Aplicación web
                 </h1>

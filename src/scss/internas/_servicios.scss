@@ -17,6 +17,9 @@
 
 
   .card {
+    display: flex;
+    min-height: 65.9rem;
+    flex-direction: column;
     background-color: v.$fondoAcerca;
     width: 33rem;
     height: auto;
