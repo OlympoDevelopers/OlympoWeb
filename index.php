@@ -1,7 +1,7 @@
 <?php require 'includes/templates/header.php';?>
 
 <section class="contenedor contenido-inicio">
-    <h1>¡Hola mundo!</h1>
+    <h1>¡Bienvenidos!</h1>
 
     <img src="/build/img/AWE.webp" alt="Logo color">
     <h2>Vive la experiencia de Dioses</h2>
