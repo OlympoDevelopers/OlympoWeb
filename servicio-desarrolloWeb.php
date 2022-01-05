@@ -48,7 +48,7 @@
                         <h3 class="plan-titulo">Cotiza tú página completa ahora</h3>
                     </div>
                     <div class="links-cotizaciones">
-                        <a href="#">
+                        <a href="https://api.whatsapp.com/send/?phone=%2B525542382966&text&app_absent=0">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                         <a href="#">
