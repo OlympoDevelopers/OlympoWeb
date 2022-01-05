@@ -23,12 +23,12 @@
     height: 50rem;
     max-width: 55rem;
   }
-}
-.grid__item:hover {
-  transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
-}
 
+  &:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+  }
+}
 .card__img {
   display: block;
   width: 100%;
@@ -63,10 +63,10 @@
   border-radius: 0.4rem;
   transition: 0.2s;
   cursor: pointer;
-}
-.card__btn span {
-  margin-left: 1rem;
-  transition: 0.2s;
+  span{
+    margin-left: 1rem;
+    transition: 0.2s;
+  }
 }
 .card__btn:hover, .card__btn:active {
   background-color: #dce4ff;

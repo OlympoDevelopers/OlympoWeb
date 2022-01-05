@@ -1,7 +1,7 @@
 <?php require 'includes/templates/header.php'; ?>
 
 <div class="cuadricula">
-    <div class="grid__item">
+    <div class="grid__item item-ivan">
         <div class="card">
             <img src="build/img/animacion1.webp" alt="Animacion 1" class="card__img">
             <div class="card__content">
@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="grid__item">
+    <div class="grid__item item-ivan">
         <div class="card">
             <img class="card__img"
                  src="build/img/animacion2.webp"
@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="grid__item">
+    <div class="grid__item item-ivan">
         <div class="card"><img class="card__img"
                                src="https://images.unsplash.com/photo-1506318164473-2dfd3ede3623?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=3300&amp;q=80"
                                alt="Canyons">
