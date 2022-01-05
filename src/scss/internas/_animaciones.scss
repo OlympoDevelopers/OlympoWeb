@@ -2,31 +2,12 @@
 @use '../base/mixins' as m;
 
 .cuadricula {
-  //display: grid;
-  //width: 114rem;
-  //grid-gap: 3rem;
-  //grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  //align-items: start;
-  //margin: auto;
-@include m.grid(1,2rem);
-  margin: auto;
-  width: 36rem;
-
-  @include m.tablet{
-    @include m.grid(1,3rem);
-    width: 115rem;
-    margin-right: 5rem;
-
-  }
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @include m.desktop{
-    @include m.grid(3,3rem)
-  }
-
-}
-@media (max-width: 60em) {
-  .grid {
-    grid-gap: 3rem;
+    @include m.grid(3,2rem);
+    margin: auto;
   }
 }
 .grid__item {
@@ -36,6 +17,12 @@
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
+  margin: 3rem 1.5rem 3rem 1.5rem;
+  max-width: 45rem;
+  @include m.tablet{
+    height: 50rem;
+    max-width: 55rem;
+  }
 }
 .grid__item:hover {
   transform: translateY(-0.5%);
